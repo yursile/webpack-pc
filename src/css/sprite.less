@@ -1,0 +1,276 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@asfc-name: asfc;
+@asfc-x: 1748px;
+@asfc-y: 260px;
+@asfc-offset-x: -1748px;
+@asfc-offset-y: -260px;
+@asfc-width: 67px;
+@asfc-height: 40px;
+@asfc-total-width: 1820px;
+@asfc-total-height: 648px;
+@asfc-image: '../img/sprite.png';
+@asfc: 1748px 260px -1748px -260px 67px 40px 1820px 648px '../img/sprite.png' asfc;
+@award-setting-name: award_setting;
+@award-setting-x: 801px;
+@award-setting-y: 172px;
+@award-setting-offset-x: -801px;
+@award-setting-offset-y: -172px;
+@award-setting-width: 289px;
+@award-setting-height: 181px;
+@award-setting-total-width: 1820px;
+@award-setting-total-height: 648px;
+@award-setting-image: '../img/sprite.png';
+@award-setting: 801px 172px -801px -172px 289px 181px 1820px 648px '../img/sprite.png' award_setting;
+@award1-name: award1;
+@award1-x: 0px;
+@award1-y: 556px;
+@award1-offset-x: 0px;
+@award1-offset-y: -556px;
+@award1-width: 1101px;
+@award1-height: 92px;
+@award1-total-width: 1820px;
+@award1-total-height: 648px;
+@award1-image: '../img/sprite.png';
+@award1: 0px 556px 0px -556px 1101px 92px 1820px 648px '../img/sprite.png' award1;
+@award2-name: award2;
+@award2-x: 801px;
+@award2-y: 0px;
+@award2-offset-x: -801px;
+@award2-offset-y: 0px;
+@award2-width: 1019px;
+@award2-height: 172px;
+@award2-total-width: 1820px;
+@award2-total-height: 648px;
+@award2-image: '../img/sprite.png';
+@award2: 801px 0px -801px 0px 1019px 172px 1820px 648px '../img/sprite.png' award2;
+@cansai-name: cansai;
+@cansai-x: 801px;
+@cansai-y: 353px;
+@cansai-offset-x: -801px;
+@cansai-offset-y: -353px;
+@cansai-width: 194px;
+@cansai-height: 67px;
+@cansai-total-width: 1820px;
+@cansai-total-height: 648px;
+@cansai-image: '../img/sprite.png';
+@cansai: 801px 353px -801px -353px 194px 67px 1820px 648px '../img/sprite.png' cansai;
+@car-name: car;
+@car-x: 1090px;
+@car-y: 172px;
+@car-offset-x: -1090px;
+@car-offset-y: -172px;
+@car-width: 230px;
+@car-height: 88px;
+@car-total-width: 1820px;
+@car-total-height: 648px;
+@car-image: '../img/sprite.png';
+@car: 1090px 172px -1090px -172px 230px 88px 1820px 648px '../img/sprite.png' car;
+@classfication-name: classfication;
+@classfication-x: 1090px;
+@classfication-y: 260px;
+@classfication-offset-x: -1090px;
+@classfication-offset-y: -260px;
+@classfication-width: 244px;
+@classfication-height: 66px;
+@classfication-total-width: 1820px;
+@classfication-total-height: 648px;
+@classfication-image: '../img/sprite.png';
+@classfication: 1090px 260px -1090px -260px 244px 66px 1820px 648px '../img/sprite.png' classfication;
+@dzsy-name: dzsy;
+@dzsy-x: 1018px;
+@dzsy-y: 420px;
+@dzsy-offset-x: -1018px;
+@dzsy-offset-y: -420px;
+@dzsy-width: 65px;
+@dzsy-height: 41px;
+@dzsy-total-width: 1820px;
+@dzsy-total-height: 648px;
+@dzsy-image: '../img/sprite.png';
+@dzsy: 1018px 420px -1018px -420px 65px 41px 1820px 648px '../img/sprite.png' dzsy;
+@lexuslogo-name: lexuslogo;
+@lexuslogo-x: 1526px;
+@lexuslogo-y: 260px;
+@lexuslogo-offset-x: -1526px;
+@lexuslogo-offset-y: -260px;
+@lexuslogo-width: 222px;
+@lexuslogo-height: 40px;
+@lexuslogo-total-width: 1820px;
+@lexuslogo-total-height: 648px;
+@lexuslogo-image: '../img/sprite.png';
+@lexuslogo: 1526px 260px -1526px -260px 222px 40px 1820px 648px '../img/sprite.png' lexuslogo;
+@next-name: next;
+@next-x: 871px;
+@next-y: 420px;
+@next-offset-x: -871px;
+@next-offset-y: -420px;
+@next-width: 70px;
+@next-height: 70px;
+@next-total-width: 1820px;
+@next-total-height: 648px;
+@next-image: '../img/sprite.png';
+@next: 871px 420px -871px -420px 70px 70px 1820px 648px '../img/sprite.png' next;
+@prev-name: prev;
+@prev-x: 801px;
+@prev-y: 420px;
+@prev-offset-x: -801px;
+@prev-offset-y: -420px;
+@prev-width: 70px;
+@prev-height: 70px;
+@prev-total-width: 1820px;
+@prev-total-height: 648px;
+@prev-image: '../img/sprite.png';
+@prev: 801px 420px -801px -420px 70px 70px 1820px 648px '../img/sprite.png' prev;
+@procedure-name: procedure;
+@procedure-x: 1601px;
+@procedure-y: 172px;
+@procedure-offset-x: -1601px;
+@procedure-offset-y: -172px;
+@procedure-width: 194px;
+@procedure-height: 59px;
+@procedure-total-width: 1820px;
+@procedure-total-height: 648px;
+@procedure-image: '../img/sprite.png';
+@procedure: 1601px 172px -1601px -172px 194px 59px 1820px 648px '../img/sprite.png' procedure;
+@require-name: require;
+@require-x: 1320px;
+@require-y: 172px;
+@require-offset-x: -1320px;
+@require-offset-y: -172px;
+@require-width: 281px;
+@require-height: 61px;
+@require-total-width: 1820px;
+@require-total-height: 648px;
+@require-image: '../img/sprite.png';
+@require: 1320px 172px -1320px -172px 281px 61px 1820px 648px '../img/sprite.png' require;
+@sohu-name: sohu;
+@sohu-x: 995px;
+@sohu-y: 353px;
+@sohu-offset-x: -995px;
+@sohu-offset-y: -353px;
+@sohu-width: 79px;
+@sohu-height: 40px;
+@sohu-total-width: 1820px;
+@sohu-total-height: 648px;
+@sohu-image: '../img/sprite.png';
+@sohu: 995px 353px -995px -353px 79px 40px 1820px 648px '../img/sprite.png' sohu;
+@swrj-name: swrj;
+@swrj-x: 1320px;
+@swrj-y: 233px;
+@swrj-offset-x: -1320px;
+@swrj-offset-y: -233px;
+@swrj-width: 47px;
+@swrj-height: 26px;
+@swrj-total-width: 1820px;
+@swrj-total-height: 648px;
+@swrj-image: '../img/sprite.png';
+@swrj: 1320px 233px -1320px -233px 47px 26px 1820px 648px '../img/sprite.png' swrj;
+@title-name: title;
+@title-x: 0px;
+@title-y: 0px;
+@title-offset-x: 0px;
+@title-offset-y: 0px;
+@title-width: 801px;
+@title-height: 556px;
+@title-total-width: 1820px;
+@title-total-height: 648px;
+@title-image: '../img/sprite.png';
+@title: 0px 0px 0px 0px 801px 556px 1820px 648px '../img/sprite.png' title;
+@upload-name: upload;
+@upload-x: 1334px;
+@upload-y: 260px;
+@upload-offset-x: -1334px;
+@upload-offset-y: -260px;
+@upload-width: 192px;
+@upload-height: 55px;
+@upload-total-width: 1820px;
+@upload-total-height: 648px;
+@upload-image: '../img/sprite.png';
+@upload: 1334px 260px -1334px -260px 192px 55px 1820px 648px '../img/sprite.png' upload;
+@wrjlogo-name: wrjlogo;
+@wrjlogo-x: 941px;
+@wrjlogo-y: 420px;
+@wrjlogo-offset-x: -941px;
+@wrjlogo-offset-y: -420px;
+@wrjlogo-width: 77px;
+@wrjlogo-height: 41px;
+@wrjlogo-total-width: 1820px;
+@wrjlogo-total-height: 648px;
+@wrjlogo-image: '../img/sprite.png';
+@wrjlogo: 941px 420px -941px -420px 77px 41px 1820px 648px '../img/sprite.png' wrjlogo;
+@spritesheet-width: 1820px;
+@spritesheet-height: 648px;
+@spritesheet-image: '../img/sprite.png';
+@spritesheet-sprites: @asfc @award-setting @award1 @award2 @cansai @car @classfication @dzsy @lexuslogo @next @prev @procedure @require @sohu @swrj @title @upload @wrjlogo;
+@spritesheet: 1820px 648px '../img/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite-size() {
+  background-size: @spritesheet-width;
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+  .sprite-size();
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: extract(@sprite, 10);
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
