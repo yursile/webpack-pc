@@ -101,6 +101,15 @@ new HtmlWebpackPlugin({
     template:'./src/view/index.html', 
     inject:true,  //this value must be true
     blockFile:"./src/view/statistics.html", //把这个目录下的代码块放到body结束标签之前，  通常放统计代码
-    headBlockFile:"./src/view/loading.html"  //把这个目录下的代码块放到body开始标签之后，通常放loading
+    headBlockFile:"./src/view/loading.html",  //把这个目录下的代码块放到body开始标签之后，通常放loading
+	replaceUrl:DOMAIN + ROOT    //替换index.html中的线上地址
 })
 ```
+
+# 更新日志
+* **解决windows shell问题**
+* **添加Pixi适配**
+* **添加线上地址转换**
+
+
+#### Author *@yursile*
